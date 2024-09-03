@@ -1,0 +1,45 @@
+body {
+    background: url('rick-roll-rick-ashley.gif');
+    font-family: Comic Sans MS, cursive, sans-serif;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    text-align: center;
+    background-color: #FF69B4;
+    padding: 100px;
+    position: relative;
+}
+
+h1 {
+    color: #00FF00;
+    font-size: 3em;
+    text-decoration: underline;
+    background-color: yellow;
+}
+
+p {
+    color: #FF0000;
+    font-size: 2em;
+    background-color: #0000FF;
+}
+
+.blinking {
+    animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+    50% { opacity: 0; }
+}
+
+.player {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
